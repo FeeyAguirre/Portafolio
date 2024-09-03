@@ -1,0 +1,375 @@
+/* Barra de navegacion */
+
+.navbar {
+  background-color: #9e8bf4;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Paytone One", sans-serif;
+  color: #8274ef;
+}
+
+a{
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+#typewriter{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 18px;
+}
+
+.seccion-oscura {
+  color: #e7e2fc;
+  background-color: #9e8bf4;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Paytone One", sans-serif;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #854DA3;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.btn-info {
+  color: white;
+  font-size: 1.1rem;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 20px;
+  background-color: #9e8bf4;
+  border: 3px solid #9f7eb5;
+}
+
+.btn-info:hover {
+  color: white;
+  background-color: #c9a6e0;
+  border: 3px solid #9e8bf4;
+}
+
+.texto-negro {
+  color: #8274ef;
+}
+
+.texto-blanco {
+  color: #c9a6e0;
+}
+
+/* Seccion Hero */
+
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 1rem;
+}
+
+.hero-imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+.Chica-development-img{
+  width: 350px;
+  height: 350px;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+  height: 300px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Experiencia */
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+  padding: 20px;
+  border: 3px solid #9f7eb5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+  color: white;
+  background-color: #c9a6e0;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #380e5a;
+  background-color: #ac71d9;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+.experiencia p {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.experiencia-titulo {
+  color: #8c53b8;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
+
+/* Proyectos */
+
+.proyectos-recientes {
+  padding: 40px;
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/* Contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 150px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: -3rem;
+  background-color: #b7a8dc;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px #c9bee5;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: #fbeaff;
+  font-size: 1.2rem;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.contacto button {
+  color: #fbeaff;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #fbeaff;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+  background-color: #9e8bf4;
+  color: black;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+  color: #380e5a;
+}
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 250px;
+}
+
+.footer-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 3px solid #9f7eb5;
+}
+
+.iconos-redes-sociales a:hover i {
+  color: #380e5a;
+}
+
+.derechos-de-autor {
+  font-size: 12px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #313030;
+  padding: 20px;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 400px;
+  }
+}
